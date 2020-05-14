@@ -1,0 +1,55 @@
+.page-header{
+  background-color: orange;
+  margin-top: 0;
+  padding: 20px 20px 20px 40px;
+
+}
+
+
+.page-header h1 , .page-header h1 a{
+
+  text-decoration: none;
+  color:black;
+
+}
+.bt-space{
+  margin-top: 10px;
+}
+.content{
+  margin-left: 80px;
+}
+h1, h2, h3, h4
+{
+  font-family: 'Tangerine'serif;
+  font-size: 48px;
+
+}
+.date{
+  color: #828282;
+
+}
+.post{
+  margin-top: 30px;
+}
+.post h1 a{
+  color: black;
+
+}
+
+textarea{
+  width: ;
+}
+
+.top-menu a .top-menu i{
+  color: black;
+  text-decoration: none
+
+}
+.top-menu,top-menu:hover
+{
+  float:right; margin-right:25px;
+  margin-right:20px;
+}
+.comment{
+
+}

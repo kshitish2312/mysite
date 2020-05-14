@@ -1,0 +1,14 @@
+{% extends 'blog/base.html' %}
+{% load crispy_forms_tags %}
+{%block title%}Add comments{% endblock %}
+
+{% block content %}
+<h1>New comment </h1>
+<form method ="post" class="post-form-group">
+  <div class="form-group">
+  {% csrf_token %}
+  {{form|crispy}}
+</div>
+<button type="submit" class="btn btn-primary">Post</button>
+</form>
+{% endblock %}
